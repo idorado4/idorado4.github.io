@@ -139,6 +139,7 @@ img{display:block}
 .captura{border-right:3px solid #191619;background:repeating-linear-gradient(45deg,#ece5d4,#ece5d4 12px,#ddd3bc 12px,#ddd3bc 24px);display:flex;align-items:center;justify-content:center;min-height:190px;overflow:hidden;padding:0}
 .captura span{font-family:'JetBrains Mono',monospace;font-size:12px;color:#4a4550;background:#f6f1e6;border:2px solid #191619;padding:6px 10px}
 .captura img.foto-unica,.captura video.foto-unica{width:100%;height:100%;object-fit:cover}
+.captura img.foto-contain{width:100%;height:100%;object-fit:contain;background:#fdfaf3}
 .mas-capturas{grid-column:1/-1;border-top:3px solid #191619}
 .mas-capturas summary{cursor:pointer;list-style:none;padding:12px 22px;font-weight:800;font-size:12.5px;letter-spacing:.08em;text-transform:uppercase;color:#e2551c}
 .mas-capturas summary::-webkit-details-marker{display:none}
